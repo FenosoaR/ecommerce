@@ -1,0 +1,20 @@
+$(document).ready(function(){
+   		$('#acc').click(function(){
+		$('section').load('Vue/acceuil.php');
+		});
+		});
+	$(document).ready(function(){
+   		$('#rech').click(function(){
+		$('h2').load('Vue/recherche.php');
+		});
+		});
+	$(document).ready(function(){
+   		$('#ajout').click(function(){
+		$('h2').load('Vue/ajouter.php');
+		});
+		});
+	$(document).ready(function(){
+   		$('#list').click(function(){
+		$('h2').load('Vue/liste.php');
+		});
+   	});
